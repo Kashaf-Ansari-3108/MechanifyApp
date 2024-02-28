@@ -40,7 +40,7 @@ const MyProfile = ({ navigation }) => {
   const [avgRating, setAvgRating] = useState(null)
   const [reviews, setReviews] = useState([])
 
-  Geocoder.init("AIzaSyCYvOXB3SFyyeR0usVOgnLyoDiAd2XDunU");
+  Geocoder.init("AIzaSyCAJ-vi4G_teVyt2t23fQF3yJ87Bf6AhEk");
 
   const getAddressFromCoordinates = async (latitude, longitude) => {
     try {

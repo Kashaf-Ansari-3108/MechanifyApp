@@ -29,7 +29,7 @@ const ReqHome = ({ navigation }) => {
   function onMultiChange() {
     return (item) => setSelectedService(xorBy(selectedService, [item], 'id'))
   }
-  Geocoder.init("AIzaSyCYvOXB3SFyyeR0usVOgnLyoDiAd2XDunU");
+  Geocoder.init("AIzaSyCAJ-vi4G_teVyt2t23fQF3yJ87Bf6AhEk");
   useEffect(() => {
     getCurrentLocation();
   }, []);

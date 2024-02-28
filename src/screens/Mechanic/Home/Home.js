@@ -45,7 +45,7 @@ const MechHome = ({ navigation }) => {
     { label: 'Rejected/Cancelled', color: ['#907F8A', '#BBAAB8', '#D8CDD5'], count: series[3] },
   ];
 
-  Geocoder.init("AIzaSyCYvOXB3SFyyeR0usVOgnLyoDiAd2XDunU");
+  Geocoder.init("AIzaSyCAJ-vi4G_teVyt2t23fQF3yJ87Bf6AhEk");
   useEffect(() => {
     getCurrentLocation();
   }, []);

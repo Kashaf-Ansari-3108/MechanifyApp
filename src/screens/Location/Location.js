@@ -31,7 +31,7 @@ const Location = ({ navigation, route }) => {
 
   };
 
-  Geocoder.init("AIzaSyCYvOXB3SFyyeR0usVOgnLyoDiAd2XDunU");
+  Geocoder.init("AIzaSyCAJ-vi4G_teVyt2t23fQF3yJ87Bf6AhEk");
 
 
   const handleSave = () => {
@@ -116,7 +116,7 @@ const Location = ({ navigation, route }) => {
             GooglePlacesDetailsQuery={{ fields: "geometry" }}
             fetchDetails={true}
             query={{
-              key: "AIzaSyCYvOXB3SFyyeR0usVOgnLyoDiAd2XDunU",
+              key: "AIzaSyCAJ-vi4G_teVyt2t23fQF3yJ87Bf6AhEk",
               language: "en",
             }}
             onPress={(data, details = null) => {
